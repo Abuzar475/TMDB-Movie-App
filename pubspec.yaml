@@ -1,12 +1,10 @@
 name: movie_app
 description: A new Flutter project.
 
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
-
 version: 1.0.0+1
 
 environment:
-  sdk: '2.19.0-146.2.beta'
+  sdk: ">=2.18.0"
 
 
 dependencies:
@@ -35,10 +33,12 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
+   
+  test: any
+    
   flutter_lints: ^2.0.0
-  build_runner: ^2.3.2
-  json_serializable: ^6.6.1
+  build_runner: any
+  json_serializable: any
   cached_network_image: ^3.2.3
   tuple: ^2.0.1
 
